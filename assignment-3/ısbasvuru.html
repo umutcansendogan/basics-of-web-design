@@ -1,0 +1,115 @@
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="keywords" content="Kariyer Başvurusu"/>
+        <meta name="description" content="Kariyerinizi yaptığınız yer burasıdır"/>
+    </head>
+    <body>
+        <center><h3><b>İŞ BAŞVURU FORMU</b></h3></center>
+        <table border="1"  width="100%">
+            <tr>
+                <td colspan="1"><form action="" method="get">
+                    <input required type="date" name="Tarihi seçiniz:" width="10">
+                </form></td>
+                <td colspan="1"><h4><b>ZORLU HOLDİNG</b></h4></td>
+                <td rowspan="2"><form action="" method="get">
+                    <input required type="image" name="Resim seçiniz">
+                </form></td>
+            </tr>
+            <tr>
+            <td colspan="1"><img src="Resim/logo.png" alt="Resim Gözükmüyor"/></td>
+            <td colspan="1"><b>Misyon</b><br/>
+                Ürünlerimizin kalitesiyle yaşam alanlarında insanları mutlu etmek...<br/>
+                <b>Vizyon</b><br/>
+                Müşteri eksenli,inovatif ve değer katan ürünler ile pazar payımızı arttırarak liderliğimizi sürdürmek...<br/>
+                <b>KORTEKS’in Değerleri</b><br/>
+                KORTEKS, Zorlu Holding çatısı altında yürüttüğü faaliyetlerini, holdingin belirlemiş olduğu değerlere uygun olarak sürdürmektedir. </td>
+            </tr>
+            <tr>
+                <td colspan="1"><h4>İŞ BAŞVURUSUNDA BULUNANIN</h4></td>
+                <td colspan="2"><form action="" method="get"><br/>
+                Adı<input required type="text"name="Adınızı giriniz"><br/>
+                Soyadı<input required type="text"name="Soydınızı giriniz"><br/>
+                Doğum Yeri Doğum Tarihi<input required type="text"name="Doğum yeri ve Doğum tarihinizi giriniz"><br/>
+                Cinsiyeti <input required type="radio" name="Cinsiyetiniz"id="e"><label for="e">Erkek</label>
+                <input required type="radio" name="Cinsiyetiniz"id="k"><label for="k">Kadın</label><br/>
+                Adresi<input required type="text"name="Adresinizi giriniz"><br/>
+                Telefonu/Ev<input required type="number"name="Ev tel numarasını yazınız">
+                Cep<input required type="number" name="Cep tel numarasını yazınız"><br/>
+                Askerlik Durumu<input required type="radio" name="Askerlik durumunuzu seçiniz" id="git"><label for="git">Gittim</label>
+                <input required type="radio" name="Askerlik durumunuzu seçiniz"id="gitme"><label for="gitme">Gitmedim</label><br/>
+                T.C. Kimlik Numarası<input required type="text" maxlength="11" name="TC'nizi giriniz"><br><hr>
+                Kan Grubu<input required type="text" name="Kan grubunuzu giriniz">
+                Ulaşabileceğimiz Adresiniz <textarea required name="Adres"cols="10"rows="5"></textarea>
+                </form></td>
+            </tr>
+            <tr>
+                <td colspan="1"><h4>Aile Bilgileri</h4></td>
+                <td colspan="1"><form action="" method="get">
+                Medeni Durumu<input required type="radio"id="evli" name="Medeni durumunuzu seçiniz"><label for="evli">Evli</label>
+                <input required type="radio"id="bekar" name="Medeni durumunuzu seçiniz"><label for="bekar">Bekar</label><br/>
+                <tr><td colspan="1">Bakmakla Yükümlü Olduğu Kimseler</td>
+                <td colspan="1">Adı - Soyadı </td>
+                <td colspan="1">Mesleği</td>
+                </tr>
+                <tr><td>Eş</td>
+                <td>
+                <form action="" method="get">
+                <input type="text"size="160px" name="Adını Soyadını giriniz">
+                </form></td>
+                <td>
+                <form action="" method="get">
+                <input type="text" name="Mesleğini yazınız">
+                </form></td>  
+                </tr>
+                <tr><td>Anne</td>
+                    <td><form action="" method="get">
+                    <input type="text"size="160px" name="Adını Soyadını giriniz">
+                    </form></td>
+                     <td>
+                        <form action="" method="get">
+                        <input type="text" name="Mesleğini yazınız">
+                        </form></td>
+                </tr>
+                <tr><td>Baba</td>
+                    <td>
+                        <form action="" method="get">
+                        <input type="text"size="160px"name="Adını Soyadını giriniz">
+                        </form></td> 
+                        <td>
+                            <form action="" method="get">
+                            <input type="text" name="Mesleğini yazınız">
+                            </form></td>
+                </tr>      
+                </form>
+            <tr><td><h4>Eğitim Öğrenim Bilgileri</h4></td>
+                <td> <form action="" method="get">
+                    Mezuniyet Durumu
+                    <input required type="radio" name="seçme" id="ilkokul"><label for="ilkokul">İlkokul</label>
+                    <input required type="radio" name="seçme" id="ortaokul"><label for="ortaokul">Ortaokul</label>
+                    <input required type="radio" name="seçme"id="lise"><label for="lise">Lise</label>
+                    <input required type="radio" name="seçme"id="üniversite"><label for="üniversite">Üniversite</label>
+                </form></td>
+                <td rowspan="2"><form action="" method="get">
+                   <center> <input type="submit" name="submit"><br/>
+                    <input type="button" name="button" value="Kaydet"><br/>
+                    <input type="reset"></center>
+                </form></td>
+            </tr>
+            <tr><td><h4>Kişisel Bilgiler</h4></td>
+            <td>
+            <form action="" method="get">
+            Kullandığınız zararlı alışkanlıklarınız var mı?(İşaretleyiniz)<br/>
+            <input type="checkbox" name="alışkanlıklar[]" value="Sigara"/>Sigara İçiyorum
+            <input type="checkbox" name="alışkanlıklar[]" value="Alkol"/>Alkol İçiyorum <br>
+            Hobileriniz Nelerdir?(İşaretleyiniz)<br/>
+            <input type="checkbox" name="Hobiler[]" value="Kitap Okumak"/>Kitap Okumak
+            <input type="checkbox" name="Hobiler[]" value="Yüzmek"/>Yüzmek<br/>
+            <input type="checkbox" name="Hobiler[]" value="Çizim Yapmak"/>Çizim Yapmak
+            <input type="checkbox" name="Hobiler[]" value="Şarkı Dinlemek"/>Şarkı Dinlemek 
+            </form>
+            </td>
+        </table>
+
+    </body>
+</html>
